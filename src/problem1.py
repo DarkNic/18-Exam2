@@ -604,9 +604,6 @@ def problem1c(strings):
         return True
     return False
 
-        # Is it possible to have the additional instructions with the todo?
-        # I nearly missed it and only checked because it seemed strange
-        # if I didn't use the above function
 
 def run_test_problem1d():
     """ Tests the   problem1d   function. """
@@ -801,6 +798,7 @@ def problem1d(strings):
 # Our tests use the following to print error messages in red.
 # Do NOT change it.  You do NOT have to do anything with it.
 ###############################################################################
+
 
 def print_result_of_test(expected, actual):
     testing_helper.print_result_of_test(expected, actual)
